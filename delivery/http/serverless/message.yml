@@ -1,0 +1,6 @@
+messages:
+  handler: function/message.list
+  events:
+    - httpApi:
+        path: /v1/message
+        method: get

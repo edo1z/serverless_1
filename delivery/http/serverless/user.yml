@@ -1,0 +1,6 @@
+users:
+  handler: function/user.list
+  events:
+    - httpApi:
+        path: /v1/user
+        method: get
